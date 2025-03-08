@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: d158fdf490cb6ef489b598e38833e70b
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: pingu_nootnoot(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: pingu_nootnoot(Clone)
+      position: {x: -0, y: 1.5477759, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone_abdomen
+      parentName: Armature
+      position: {x: -0, y: 0, z: -0.007109924}
+      rotation: {x: 0.7071067, y: -0.00000008429368, z: -0.00000008429368, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bone_pecho
+      parentName: Bone_abdomen
+      position: {x: -0, y: 0.009671851, z: 0}
+      rotation: {x: -3.552712e-15, y: -1.776357e-14, z: 2.019484e-28, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_claviculaIzq
+      parentName: Bone_pecho
+      position: {x: -0, y: 0.010719578, z: 0}
+      rotation: {x: 0.00000022792027, y: -0.000000054251274, z: 0.71993273, w: 0.69404393}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Bone_brazoIzq
+      parentName: Bone_claviculaIzq
+      position: {x: 4.0978193e-10, y: 0.005035522, z: 5.7226797e-17}
+      rotation: {x: -0.004297285, y: -0.0018702922, z: -0.04365867, w: 0.9990355}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Bone_antebrazoIzq
+      parentName: Bone_brazoIzq
+      position: {x: -0, y: 0.01471377, z: 1.4160374e-16}
+      rotation: {x: 0.011864118, y: 0.010870208, z: 0.0123121245, w: 0.9997947}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone_antebrazoIzq_end
+      parentName: Bone_antebrazoIzq
+      position: {x: -0, y: 0.011169204, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_cuello
+      parentName: Bone_pecho
+      position: {x: -0, y: 0.010719578, z: 0}
+      rotation: {x: -3.552712e-15, y: 1.0658141e-14, z: 4.235166e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_cabeza
+      parentName: Bone_cuello
+      position: {x: -0, y: 0.0024155532, z: 0}
+      rotation: {x: 1.6940659e-21, y: -0, z: 4.235166e-22, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bone_cabeza_end
+      parentName: Bone_cabeza
+      position: {x: -0, y: 0.0074818297, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_claviculaDer
+      parentName: Bone_pecho
+      position: {x: 0.00022895575, y: 0.010719578, z: -5.4587303e-11}
+      rotation: {x: -0.00000052251517, y: -0.00000033754864, z: -0.7205171, w: 0.69343716}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Bone_brazoDer
+      parentName: Bone_claviculaDer
+      position: {x: 5.2154064e-10, y: 0.004814124, z: -1.5436309e-15}
+      rotation: {x: 0.0040238714, y: -0.0017199336, z: -0.05087699, w: 0.9986953}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Bone_antebrazoDer
+      parentName: Bone_brazoDer
+      position: {x: -1.4901161e-10, y: 0.014859672, z: 5.702336e-16}
+      rotation: {x: 0.011184972, y: -0.066496134, z: -0.007913965, w: 0.99769264}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: Bone_antebrazoDer_end
+      parentName: Bone_antebrazoDer
+      position: {x: -0, y: 0.011169204, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_caderaIzq
+      parentName: Armature
+      position: {x: -0, y: 0, z: -0.007109924}
+      rotation: {x: -0.640376, y: 0.29038185, z: 0.285748, w: 0.65111065}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone_piernaIzq
+      parentName: Bone_caderaIzq
+      position: {x: 9.555685e-10, y: 0.005513175, z: 9.3132255e-12}
+      rotation: {x: 0.007813249, y: -0.000000106212944, z: -0.42892402, w: 0.9033068}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bone_talonIzq
+      parentName: Bone_piernaIzq
+      position: {x: -3.314926e-10, y: 0.0036795908, z: -1.8626451e-11}
+      rotation: {x: -0.02646783, y: -0.2520166, z: 0.14929919, w: 0.9557703}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bone_pieIzq
+      parentName: Bone_talonIzq
+      position: {x: -0.0000000016391277, y: 0.008004841, z: 5.9604643e-10}
+      rotation: {x: -0.0023111938, y: -0.00009234978, z: -0.010575156, w: 0.9999414}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bone_pieIzq_end
+      parentName: Bone_pieIzq
+      position: {x: -0, y: 0.006919859, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_caderaDer
+      parentName: Armature
+      position: {x: 0.00010368049, y: 0, z: -0.007109924}
+      rotation: {x: -0.7012693, y: -0.052512046, z: -0.07250071, w: 0.7072535}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_piernaDer
+      parentName: Bone_caderaDer
+      position: {x: 3.320747e-10, y: 0.005513175, z: -9.3132255e-12}
+      rotation: {x: 0.03228378, y: 0.01759538, z: 0.2619716, w: 0.964375}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Bone_talonDer
+      parentName: Bone_piernaDer
+      position: {x: -1.3096724e-10, y: 0.003679591, z: 3.259629e-11}
+      rotation: {x: -0.7695028, y: -0.32912746, z: 0.14237326, w: 0.52846044}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Bone_pieDer
+      parentName: Bone_talonDer
+      position: {x: 7.45058e-10, y: 0.008004841, z: 0.000000001490116}
+      rotation: {x: 0.010417892, y: 0.005642639, z: -0.0029398128, w: 0.9999255}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: Bone_pieDer_end
+      parentName: Bone_pieDer
+      position: {x: -0, y: 0.006919859, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pingu_cuerpo
+      parentName: pingu_nootnoot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: pingu_ojos
+      parentName: pingu_nootnoot(Clone)
+      position: {x: -0, y: 2.0970366, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: pingu_patas
+      parentName: pingu_nootnoot(Clone)
+      position: {x: -0, y: 2.4358256, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: pingu_pico
+      parentName: pingu_nootnoot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
